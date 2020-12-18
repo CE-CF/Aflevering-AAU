@@ -9,8 +9,8 @@ byte mac_addr[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 IPAddress server_addr(192, 168, 43, 245);     // IP of the MySQL *server* here
 char user[] = "Kenneths_Iphone";              // MySQL user login username
 char password[] = "kenneth123sej";            // MySQL user login password
-const char *SSID = "ONEPLUS";                 // Name of WiFi
-const char *WiFiPassword = "Flye1234";        //Password til WiFi
+const char *SSID = "raspi-webgui";                 // Name of WiFi
+const char *WiFiPassword = "ChangeMe";        //Password til WiFi
 int datacheck = 0;
 char query[1000];
 int change = 0;
